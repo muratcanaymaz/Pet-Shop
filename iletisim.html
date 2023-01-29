@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Shop-Bize-Ulasın</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="still.css">
+
+    <style>
+        .navbar-brand:hover{
+            color: gold;
+            transition: all .3s;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-1 " style="transition: all 1s;" href="/index.html"> <img
+                    style="width: 90px;" src="mcalogo2.jfif" alt=""> Pet-Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fw-bold fs-4" id="offcanvasDarkNavbarLabel">M.C.A MENÜ</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Aksesuarlar.html">Aksesuarlar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">İletişim</a>
+                        </li>
+
+
+                        <div class="btn-group">
+                            <a class="btn btn-success lead " style="background-color: gold; color: black;"
+                                href="aksesuarlar.html">Diger Seçenekler</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="row p-5">
+        <div class="col-6 ">
+            <h1 class="fw-bold fs-1" style="color: gold; text-align: center;" >Bize Ulaşın</h1>
+            <p class="lead" style="color: #fff;">Merhaba, Bootcamp websitesi olarak bizlere ulaşmak için lütfen bize iletişim alanından mesaj gönderin. Size en hızlı şekilde cevap verecek ekibimizle birlikte sizin için en uygun yazılım eğitim programını sunmaya hazırız. Ayrıca, eğitimlerimiz hakkında detaylı bilgi almak isterseniz, bize telefon numaranızı bırakarak biz sizinle iletişime geçebiliriz. Sizin yazılım eğitimine katılmanız için sabırsızlanıyoruz. Saygılarımızla, Bootcamp ekibi.</p>
+            <img src="/images/pg-2.png" class="w-100 rounded-5" alt="">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" placeholder="Emali Giriniz" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Şifre</label>
+                  <input type="password" placeholder="Şifre Giriniz" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Telefon</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="533 333 33 33">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Adres</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Şehir</label>
+                  <input type="text" placeholder="Şehir " class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Eyalet</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Posta Kodu</label>
+                  <input type="text" placeholder="Posta Kodu" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Bu Alandan Ulaşabilirsiniz
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Gönder</button>
+                </div>
+              </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="    https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js">
+    </script>    
+</body>
+</html>
